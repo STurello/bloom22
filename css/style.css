@@ -1,0 +1,54 @@
+:root {
+    --primColor: rgb(232, 124, 147);
+    --secColor: rgb(244, 244, 246);
+    --tertColor: rgb(255, 255, 255);
+    --btnColor: rgb(60, 60, 60);
+    --font: 'Srisakdi', cursive, sans-serif;
+}
+
+* {
+    box-sizing: border-box
+}
+
+a {
+    text-decoration: none;
+}
+
+/* header */
+
+.header {
+    background-color: var(--primColor);
+}
+
+.top-header {
+    background-color: var(--btnColor);
+    height: 60px;
+}
+
+.home {
+    font-family: var(--font);
+    font-size: 40px;
+    text-transform: capitalize;
+}
+
+.content-btn {
+    background-color: var(--btnColor);
+    height: 40px;
+    border-radius: 10px;
+}
+
+/* close header */
+
+/* main */
+
+
+
+/* close main */
+
+/* footer */
+
+.footer {
+    background-color: var(--btnColor);
+}
+
+/* close footer */
